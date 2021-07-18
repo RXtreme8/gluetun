@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"github.com/qdm12/gluetun/internal/updater/resolver"
-	"github.com/qdm12/gluetun/internal/updater/resolver/mock_resolver"
+	"github.com/rxtreme8/gluetun/internal/updater/resolver"
+	"github.com/rxtreme8/gluetun/internal/updater/resolver/mock_resolver"
 	"github.com/stretchr/testify/assert"
 )
 

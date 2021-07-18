@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/qdm12/gluetun/internal/models"
-	"github.com/qdm12/gluetun/internal/updater/resolver"
+	"github.com/rxtreme8/gluetun/internal/models"
+	"github.com/rxtreme8/gluetun/internal/updater/resolver"
 )
 
 var ErrNotEnoughServers = errors.New("not enough servers found")

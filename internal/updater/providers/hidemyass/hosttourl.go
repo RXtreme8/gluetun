@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/qdm12/gluetun/internal/updater/openvpn"
+	"github.com/rxtreme8/gluetun/internal/updater/openvpn"
 )
 
 func getAllHostToURL(ctx context.Context, client *http.Client) (

@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/qdm12/gluetun/internal/dns"
-	"github.com/qdm12/gluetun/internal/models"
-	"github.com/qdm12/gluetun/internal/openvpn"
-	"github.com/qdm12/gluetun/internal/publicip"
-	"github.com/qdm12/gluetun/internal/updater"
+	"github.com/rxtreme8/gluetun/internal/dns"
+	"github.com/rxtreme8/gluetun/internal/models"
+	"github.com/rxtreme8/gluetun/internal/openvpn"
+	"github.com/rxtreme8/gluetun/internal/publicip"
+	"github.com/rxtreme8/gluetun/internal/updater"
 	"github.com/qdm12/golibs/logging"
 )
 

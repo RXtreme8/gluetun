@@ -5,8 +5,8 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/qdm12/gluetun/internal/models"
-	"github.com/qdm12/gluetun/internal/publicip"
+	"github.com/rxtreme8/gluetun/internal/models"
+	"github.com/rxtreme8/gluetun/internal/publicip"
 )
 
 func setLocationInfo(ctx context.Context, client *http.Client, servers []models.PrivadoServer) (err error) {

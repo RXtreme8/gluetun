@@ -5,7 +5,7 @@ package openvpn
 import (
 	"context"
 
-	"github.com/qdm12/gluetun/internal/unix"
+	"github.com/rxtreme8/gluetun/internal/unix"
 	"github.com/qdm12/golibs/command"
 	"github.com/qdm12/golibs/logging"
 	"github.com/qdm12/golibs/os"

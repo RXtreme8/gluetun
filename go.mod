@@ -1,4 +1,4 @@
-module github.com/qdm12/gluetun
+module github.com/rxtreme8/gluetun
 
 go 1.16
 

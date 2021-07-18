@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/qdm12/gluetun/internal/updater"
+	"github.com/rxtreme8/gluetun/internal/updater"
 	"github.com/qdm12/golibs/logging"
 )
 

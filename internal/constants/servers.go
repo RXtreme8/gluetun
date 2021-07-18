@@ -1,6 +1,6 @@
 package constants
 
-import "github.com/qdm12/gluetun/internal/models"
+import "github.com/rxtreme8/gluetun/internal/models"
 
 func GetAllServers() (allServers models.AllServers) {
 	//nolint:gomnd

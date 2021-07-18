@@ -9,7 +9,7 @@ assignees:
 
 <!---
 ⚠️ If this about a Docker configuration problem or another service:
-Start a discussion at https://github.com/qdm12/gluetun/discussions/new
+Start a discussion at https://github.com/rxtreme8/gluetun/discussions/new
 OR I WILL INSTA-CLOSE YOUR ISSUE.
 -->
 

@@ -1,10 +1,10 @@
 package surfshark
 
 import (
-	"github.com/qdm12/gluetun/internal/configuration"
-	"github.com/qdm12/gluetun/internal/constants"
-	"github.com/qdm12/gluetun/internal/models"
-	"github.com/qdm12/gluetun/internal/provider/utils"
+	"github.com/rxtreme8/gluetun/internal/configuration"
+	"github.com/rxtreme8/gluetun/internal/constants"
+	"github.com/rxtreme8/gluetun/internal/models"
+	"github.com/rxtreme8/gluetun/internal/provider/utils"
 )
 
 func (s *Surfshark) GetOpenVPNConnection(selection configuration.ServerSelection) (

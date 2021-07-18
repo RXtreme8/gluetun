@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/fatih/color"
-	"github.com/qdm12/gluetun/internal/constants"
+	"github.com/rxtreme8/gluetun/internal/constants"
 	"github.com/qdm12/golibs/logging"
 )
 
@@ -80,13 +80,13 @@ Your credentials might be wrong 🤨
 That error usually happens because either:
 
 1. The VPN server IP address you are trying to connect to is no longer valid 🔌
-   Update your server information using https://github.com/qdm12/gluetun/wiki/Updating-Servers
+   Update your server information using https://github.com/rxtreme8/gluetun/wiki/Updating-Servers
 
 2. The VPN server crashed 💥, try changing your VPN servers filtering options such as REGION
 
 3. Your Internet connection is not working 🤯, ensure it works
 
-4. Something else ➡️ https://github.com/qdm12/gluetun/issues/new/choose
+4. Something else ➡️ https://github.com/rxtreme8/gluetun/issues/new/choose
 `
 		level = logging.LevelWarn
 	default:

@@ -4,10 +4,10 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/qdm12/gluetun/internal/constants"
-	"github.com/qdm12/gluetun/internal/dns"
-	"github.com/qdm12/gluetun/internal/openvpn"
-	"github.com/qdm12/gluetun/internal/updater"
+	"github.com/rxtreme8/gluetun/internal/constants"
+	"github.com/rxtreme8/gluetun/internal/dns"
+	"github.com/rxtreme8/gluetun/internal/openvpn"
+	"github.com/rxtreme8/gluetun/internal/updater"
 	"github.com/qdm12/golibs/logging"
 )
 

@@ -1,9 +1,9 @@
 package vpnunlimited
 
 import (
-	"github.com/qdm12/gluetun/internal/configuration"
-	"github.com/qdm12/gluetun/internal/models"
-	"github.com/qdm12/gluetun/internal/provider/utils"
+	"github.com/rxtreme8/gluetun/internal/configuration"
+	"github.com/rxtreme8/gluetun/internal/models"
+	"github.com/rxtreme8/gluetun/internal/provider/utils"
 )
 
 func (p *Provider) filterServers(selection configuration.ServerSelection) (

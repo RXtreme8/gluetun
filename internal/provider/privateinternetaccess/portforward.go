@@ -14,9 +14,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/qdm12/gluetun/internal/constants"
-	"github.com/qdm12/gluetun/internal/firewall"
-	format "github.com/qdm12/gluetun/internal/logging"
+	"github.com/rxtreme8/gluetun/internal/constants"
+	"github.com/rxtreme8/gluetun/internal/firewall"
+	format "github.com/rxtreme8/gluetun/internal/logging"
 	"github.com/qdm12/golibs/logging"
 	"github.com/qdm12/golibs/os"
 )

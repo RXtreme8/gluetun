@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/qdm12/gluetun/internal/configuration"
-	"github.com/qdm12/gluetun/internal/constants"
-	"github.com/qdm12/gluetun/internal/storage"
-	"github.com/qdm12/gluetun/internal/updater"
+	"github.com/rxtreme8/gluetun/internal/configuration"
+	"github.com/rxtreme8/gluetun/internal/constants"
+	"github.com/rxtreme8/gluetun/internal/storage"
+	"github.com/rxtreme8/gluetun/internal/updater"
 	"github.com/qdm12/golibs/logging"
 	"github.com/qdm12/golibs/os"
 )

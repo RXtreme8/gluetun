@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/qdm12/gluetun/internal/openvpn"
+	"github.com/rxtreme8/gluetun/internal/openvpn"
 	"github.com/qdm12/golibs/logging"
 )
 

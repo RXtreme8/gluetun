@@ -9,10 +9,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/qdm12/gluetun/internal/models"
-	"github.com/qdm12/gluetun/internal/updater/openvpn"
-	"github.com/qdm12/gluetun/internal/updater/resolver"
-	"github.com/qdm12/gluetun/internal/updater/unzip"
+	"github.com/rxtreme8/gluetun/internal/models"
+	"github.com/rxtreme8/gluetun/internal/updater/openvpn"
+	"github.com/rxtreme8/gluetun/internal/updater/resolver"
+	"github.com/rxtreme8/gluetun/internal/updater/unzip"
 )
 
 var ErrNotEnoughServers = errors.New("not enough servers found")

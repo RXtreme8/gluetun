@@ -1,6 +1,6 @@
 package vyprvpn
 
-import "github.com/qdm12/gluetun/internal/models"
+import "github.com/rxtreme8/gluetun/internal/models"
 
 func Stringify(servers []models.VyprvpnServer) (s string) {
 	s = "func VyprvpnServers() []models.VyprvpnServer {\n"

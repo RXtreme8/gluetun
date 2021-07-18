@@ -3,7 +3,7 @@ package mullvad
 import (
 	"sort"
 
-	"github.com/qdm12/gluetun/internal/models"
+	"github.com/rxtreme8/gluetun/internal/models"
 )
 
 func sortServers(servers []models.MullvadServer) {

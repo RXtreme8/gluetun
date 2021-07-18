@@ -7,8 +7,8 @@ import (
 	"net"
 	"sync"
 
-	"github.com/qdm12/gluetun/internal/models"
-	"github.com/qdm12/gluetun/internal/routing"
+	"github.com/rxtreme8/gluetun/internal/models"
+	"github.com/rxtreme8/gluetun/internal/routing"
 	"github.com/qdm12/golibs/command"
 	"github.com/qdm12/golibs/logging"
 	"github.com/qdm12/golibs/os"

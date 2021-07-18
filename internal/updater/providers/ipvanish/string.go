@@ -1,6 +1,6 @@
 package ipvanish
 
-import "github.com/qdm12/gluetun/internal/models"
+import "github.com/rxtreme8/gluetun/internal/models"
 
 func Stringify(servers []models.IpvanishServer) (s string) {
 	s = "func IpvanishServers() []models.IpvanishServer {\n"

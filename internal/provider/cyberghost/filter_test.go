@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/qdm12/gluetun/internal/configuration"
-	"github.com/qdm12/gluetun/internal/models"
+	"github.com/rxtreme8/gluetun/internal/configuration"
+	"github.com/rxtreme8/gluetun/internal/models"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

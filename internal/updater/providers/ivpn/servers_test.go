@@ -7,10 +7,10 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/qdm12/gluetun/internal/models"
-	"github.com/qdm12/gluetun/internal/updater/resolver"
-	"github.com/qdm12/gluetun/internal/updater/resolver/mock_resolver"
-	"github.com/qdm12/gluetun/internal/updater/unzip/mock_unzip"
+	"github.com/rxtreme8/gluetun/internal/models"
+	"github.com/rxtreme8/gluetun/internal/updater/resolver"
+	"github.com/rxtreme8/gluetun/internal/updater/resolver/mock_resolver"
+	"github.com/rxtreme8/gluetun/internal/updater/unzip/mock_unzip"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

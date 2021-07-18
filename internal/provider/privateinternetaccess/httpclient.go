@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/qdm12/gluetun/internal/constants"
+	"github.com/rxtreme8/gluetun/internal/constants"
 )
 
 var (

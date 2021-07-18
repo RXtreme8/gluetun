@@ -1,6 +1,6 @@
 package cyberghost
 
-import "github.com/qdm12/gluetun/internal/models"
+import "github.com/rxtreme8/gluetun/internal/models"
 
 // Stringify converts servers to code string format.
 func Stringify(servers []models.CyberghostServer) (s string) {

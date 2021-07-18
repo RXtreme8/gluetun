@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/qdm12/gluetun/internal/updater/resolver"
+	"github.com/rxtreme8/gluetun/internal/updater/resolver"
 )
 
 func getResolveSettings(minServers int) (settings resolver.ParallelSettings) {

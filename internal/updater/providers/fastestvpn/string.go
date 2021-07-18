@@ -1,6 +1,6 @@
 package fastestvpn
 
-import "github.com/qdm12/gluetun/internal/models"
+import "github.com/rxtreme8/gluetun/internal/models"
 
 func Stringify(servers []models.FastestvpnServer) (s string) {
 	s = "func FastestvpnServers() []models.FastestvpnServer {\n"

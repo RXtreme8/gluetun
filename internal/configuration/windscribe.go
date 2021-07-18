@@ -3,7 +3,7 @@ package configuration
 import (
 	"strconv"
 
-	"github.com/qdm12/gluetun/internal/constants"
+	"github.com/rxtreme8/gluetun/internal/constants"
 )
 
 func (settings *Provider) windscribeLines() (lines []string) {

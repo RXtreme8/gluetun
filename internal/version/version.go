@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/qdm12/gluetun/internal/logging"
-	"github.com/qdm12/gluetun/internal/models"
+	"github.com/rxtreme8/gluetun/internal/logging"
+	"github.com/rxtreme8/gluetun/internal/models"
 )
 
 // GetMessage returns a message for the user describing if there is a newer version

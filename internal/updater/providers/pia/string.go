@@ -1,6 +1,6 @@
 package pia
 
-import "github.com/qdm12/gluetun/internal/models"
+import "github.com/rxtreme8/gluetun/internal/models"
 
 func Stringify(servers []models.PIAServer) (s string) {
 	s = "func PIAServers() []models.PIAServer {\n"

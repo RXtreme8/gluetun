@@ -1,6 +1,6 @@
 package surfshark
 
-import "github.com/qdm12/gluetun/internal/models"
+import "github.com/rxtreme8/gluetun/internal/models"
 
 func Stringify(servers []models.SurfsharkServer) (s string) {
 	s = "func SurfsharkServers() []models.SurfsharkServer {\n"

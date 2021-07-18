@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/qdm12/gluetun/internal/constants"
+	"github.com/rxtreme8/gluetun/internal/constants"
 )
 
 var errCountryCodeUnknown = errors.New("country code is unknown")

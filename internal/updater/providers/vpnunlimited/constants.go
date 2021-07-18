@@ -3,8 +3,8 @@ package vpnunlimited
 import (
 	"strings"
 
-	"github.com/qdm12/gluetun/internal/constants"
-	"github.com/qdm12/gluetun/internal/models"
+	"github.com/rxtreme8/gluetun/internal/constants"
+	"github.com/rxtreme8/gluetun/internal/models"
 )
 
 func getHostToServer() (hts hostToServer, warnings []string) {

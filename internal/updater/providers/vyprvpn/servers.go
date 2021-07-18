@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/qdm12/gluetun/internal/models"
-	"github.com/qdm12/gluetun/internal/updater/openvpn"
-	"github.com/qdm12/gluetun/internal/updater/resolver"
-	"github.com/qdm12/gluetun/internal/updater/unzip"
+	"github.com/rxtreme8/gluetun/internal/models"
+	"github.com/rxtreme8/gluetun/internal/updater/openvpn"
+	"github.com/rxtreme8/gluetun/internal/updater/resolver"
+	"github.com/rxtreme8/gluetun/internal/updater/unzip"
 )
 
 var ErrNotEnoughServers = errors.New("not enough servers found")
@@ -19,7 +19,7 @@ var ErrNotEnoughServers = errors.New("not enough servers found")
 func GetServers(ctx context.Context, unzipper unzip.Unzipper,
 	presolver resolver.Parallel, minServers int) (
 	servers []models.VyprvpnServer, warnings []string, err error) {
-	const url = "https://support.vyprvpn.com/hc/article_attachments/360052617332/Vypr_OpenVPN_20200320.zip"
+	const url = "https://support.vpn.giganews.com/hc/article_attachments/360052617332/Vypr_OpenVPN_20200320.zip"
 	contents, err := unzipper.FetchAndExtract(ctx, url)
 	if err != nil {
 		return nil, nil, err

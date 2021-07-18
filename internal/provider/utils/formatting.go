@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/qdm12/gluetun/internal/configuration"
-	"github.com/qdm12/gluetun/internal/constants"
+	"github.com/rxtreme8/gluetun/internal/configuration"
+	"github.com/rxtreme8/gluetun/internal/constants"
 )
 
 func commaJoin(slice []string) string {

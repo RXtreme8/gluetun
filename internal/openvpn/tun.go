@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/qdm12/gluetun/internal/constants"
-	"github.com/qdm12/gluetun/internal/unix"
+	"github.com/rxtreme8/gluetun/internal/constants"
+	"github.com/rxtreme8/gluetun/internal/unix"
 )
 
 // CheckTUN checks the tunnel device is present and accessible.

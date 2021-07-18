@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/qdm12/gluetun/internal/dns"
+	"github.com/rxtreme8/gluetun/internal/dns"
 	"github.com/qdm12/golibs/logging"
 )
 

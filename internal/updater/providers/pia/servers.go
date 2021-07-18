@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/qdm12/gluetun/internal/models"
+	"github.com/rxtreme8/gluetun/internal/models"
 )
 
 var ErrNotEnoughServers = errors.New("not enough servers found")

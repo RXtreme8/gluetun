@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/qdm12/gluetun/internal/publicip"
+	"github.com/rxtreme8/gluetun/internal/publicip"
 	"github.com/qdm12/golibs/logging"
 )
 

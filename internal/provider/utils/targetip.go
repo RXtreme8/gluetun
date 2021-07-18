@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/qdm12/gluetun/internal/models"
+	"github.com/rxtreme8/gluetun/internal/models"
 )
 
 var ErrTargetIPNotFound = errors.New("target IP address not found")

@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/qdm12/gluetun/internal/constants"
-	"github.com/qdm12/gluetun/internal/healthcheck"
+	"github.com/rxtreme8/gluetun/internal/constants"
+	"github.com/rxtreme8/gluetun/internal/healthcheck"
 )
 
 func (c *cli) HealthCheck(ctx context.Context) error {

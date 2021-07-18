@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/qdm12/gluetun/internal/models"
+	"github.com/rxtreme8/gluetun/internal/models"
 )
 
 func (c *configurator) SetVPNConnection(ctx context.Context, connection models.OpenVPNConnection) (err error) {

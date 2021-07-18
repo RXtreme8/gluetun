@@ -4,7 +4,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/qdm12/gluetun/internal/models"
+	"github.com/rxtreme8/gluetun/internal/models"
 )
 
 type hostToServer map[string]models.SurfsharkServer

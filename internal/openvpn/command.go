@@ -8,7 +8,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/qdm12/gluetun/internal/constants"
+	"github.com/rxtreme8/gluetun/internal/constants"
 )
 
 var ErrVersionUnknown = errors.New("OpenVPN version is unknown")

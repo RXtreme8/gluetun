@@ -3,7 +3,7 @@ package windscribe
 import (
 	"math/rand"
 
-	"github.com/qdm12/gluetun/internal/models"
+	"github.com/rxtreme8/gluetun/internal/models"
 )
 
 type Windscribe struct {

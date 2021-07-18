@@ -1,6 +1,6 @@
 package hidemyass
 
-import "github.com/qdm12/gluetun/internal/models"
+import "github.com/rxtreme8/gluetun/internal/models"
 
 func Stringify(servers []models.HideMyAssServer) (s string) {
 	s = "func HideMyAssServers() []models.HideMyAssServer {\n"

@@ -1,6 +1,6 @@
 package privatevpn
 
-import "github.com/qdm12/gluetun/internal/models"
+import "github.com/rxtreme8/gluetun/internal/models"
 
 func Stringify(servers []models.PrivatevpnServer) (s string) {
 	s = "func PrivatevpnServers() []models.PrivatevpnServer {\n"

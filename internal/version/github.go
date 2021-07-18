@@ -24,7 +24,7 @@ type githubCommit struct {
 }
 
 func getGithubReleases(ctx context.Context, client *http.Client) (releases []githubRelease, err error) {
-	const url = "https://api.github.com/repos/qdm12/gluetun/releases"
+	const url = "https://api.github.com/repos/rxtreme8/gluetun/releases"
 	request, err := http.NewRequestWithContext(ctx, http.MethodGet, url, nil)
 	if err != nil {
 		return nil, err
@@ -42,7 +42,7 @@ func getGithubReleases(ctx context.Context, client *http.Client) (releases []git
 }
 
 func getGithubCommits(ctx context.Context, client *http.Client) (commits []githubCommit, err error) {
-	const url = "https://api.github.com/repos/qdm12/gluetun/commits"
+	const url = "https://api.github.com/repos/rxtreme8/gluetun/commits"
 	request, err := http.NewRequestWithContext(ctx, http.MethodGet, url, nil)
 	if err != nil {
 		return nil, err

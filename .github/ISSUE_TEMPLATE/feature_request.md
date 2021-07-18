@@ -14,4 +14,4 @@ assignees: qdm12
 **Optional extra information** 🚀
 
 - I tried `docker run something` and it doesn't work
-- That [url](https://github.com/qdm12/gluetun) is interesting
+- That [url](https://github.com/rxtreme8/gluetun) is interesting

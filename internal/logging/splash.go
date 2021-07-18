@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/qdm12/gluetun/internal/constants"
-	"github.com/qdm12/gluetun/internal/models"
+	"github.com/rxtreme8/gluetun/internal/constants"
+	"github.com/rxtreme8/gluetun/internal/models"
 )
 
 // Splash returns the welcome spash message.

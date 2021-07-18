@@ -5,7 +5,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/qdm12/gluetun/internal/firewall"
+	"github.com/rxtreme8/gluetun/internal/firewall"
 	"github.com/qdm12/golibs/logging"
 	"github.com/qdm12/golibs/os"
 )

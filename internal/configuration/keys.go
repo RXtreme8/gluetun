@@ -5,7 +5,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/qdm12/gluetun/internal/constants"
+	"github.com/rxtreme8/gluetun/internal/constants"
 )
 
 func readClientKey(r reader) (clientKey string, err error) {

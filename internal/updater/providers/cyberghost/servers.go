@@ -5,8 +5,8 @@ package cyberghost
 import (
 	"context"
 
-	"github.com/qdm12/gluetun/internal/models"
-	"github.com/qdm12/gluetun/internal/updater/resolver"
+	"github.com/rxtreme8/gluetun/internal/models"
+	"github.com/rxtreme8/gluetun/internal/updater/resolver"
 )
 
 func GetServers(ctx context.Context, presolver resolver.Parallel,
